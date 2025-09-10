@@ -8,6 +8,13 @@
   - Apply a global box-sizing reset using the universal selector (hint use * selector).
 */
 
+:root {
+  --brand: hsl(221 83% 53%); /*assigning all these variables values*/
+  --muted: #6b7280;
+  --bg: #f6f7fb;
+  --card: #ffffff; 
+}
+
 /* TODO 2:
    -Give .site-header & .site-footer a subtle background using var(--card)
    -Make the .tagline class a bit muted (use var(--muted))
